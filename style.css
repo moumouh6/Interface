@@ -67,10 +67,14 @@ header {
 
 /* Section accueil */
 .accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 2rem;
     background: linear-gradient(to right, #342D67, #6759CD);
     color: #fff;
+    min-height: 750px;
 }
 
 .hero {
@@ -124,6 +128,9 @@ header {
 
 /* Section about */
 .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 6rem 2.5rem;
     text-align: center;
     min-height: 500px;
@@ -143,10 +150,13 @@ header {
 
 /* Section Q&A */
 .QA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #E7E7E7;
     padding: 4rem 1.5rem;
     text-align: center;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .qa-titre {
@@ -286,4 +296,3 @@ footer {
         align-items: center;
     }
 }
-
