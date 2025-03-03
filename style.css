@@ -466,6 +466,10 @@ ul {
   .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
     background-color: #ff0000;
   }  
+.couleur{
+    color:  #D28C64;
+}
+
 
 .container-contact {
     display: flex;
@@ -520,7 +524,7 @@ ul {
 footer {
     text-align: center;
     font-size: 0.7rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* Responsive Design */
