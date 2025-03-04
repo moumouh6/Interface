@@ -51,6 +51,10 @@ header {
     text-decoration: none;
     font-size: 1rem;
 }
+.nav-links a {
+    display: block;  /* S'assurer qu'ils sont en bloc */
+    margin-bottom: 10px;  /* Ajoute un espace en bas de chaque lien */
+}
 
 button {
   --primary-color: #645bff;
