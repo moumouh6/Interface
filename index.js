@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Gestion des boutons de connexion et d'inscription
     document.querySelector(".button2").addEventListener("click", function () {
-        window.location.href = "https://am11iin.github.io/sign-in/";
+        window.location.href = "https://moumouh6.github.io/sign-in-/";
     });
 
     document.querySelector(".button3").addEventListener("click", function () {
