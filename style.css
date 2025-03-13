@@ -51,10 +51,6 @@ header {
     text-decoration: none;
     font-size: 1rem;
 }
-.nav-links a {
-    display: block;  /* S'assurer qu'ils sont en bloc */
-    margin-bottom: 10px;  /* Ajoute un espace en bas de chaque lien */
-}
 
 button {
   --primary-color: #645bff;
@@ -496,23 +492,17 @@ ul {
     padding-right: 20%;
 }
 
-.gauche {
-    display: flex;
-    justify-content: space-evenly;
+.gauche  {
+  display: flex;
+  justify-content:first baseline;
     align-items: center;
 }
 
-.place-g h1 {
-    font-size: 2rem;
-}
 
-.place-g p {
-    font-size: 1rem;
-}
-
-.place-d p {
-    font-size: 1.2rem;
-    font-weight: bold;
+.gauche img, footer {
+    width: 200px;
+    height: 150px;
+    color: white;
 }
 
 .down-logo {
@@ -523,12 +513,14 @@ ul {
 .photo-reseau {
     width: 100%;
     max-width: 200px;
+ 
 }
 
 footer {
-    text-align: center;
+    text-align: start;
     font-size: 0.7rem;
     margin-top: 0.5rem;
+    width: auto;
 }
 
 /* Responsive Design */
