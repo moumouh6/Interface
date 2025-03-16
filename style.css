@@ -494,7 +494,7 @@ ul {
 
 .gauche  {
   display: flex;
-  justify-content:first baseline;
+  justify-content:start;
     align-items: center;
 }
 
@@ -505,10 +505,7 @@ ul {
     color: white;
 }
 
-.down-logo {
-    width: 70px;
-    height: 70px;
-}
+
 
 .photo-reseau {
     width: 100%;
